@@ -1,0 +1,40 @@
+! vim: filetype=xdefaults
+
+! Fonts
+URxvt.font:         xft:Monospace:size=10
+URxvt.letterSpace:  -1
+
+! Interface
+URxvt.cursorBlink:  true
+URxvt.pointerBlank: true
+URxvt.saveLines:    10000
+URxvt.scrollBar:    false
+URxvt.urgentOnBell: true
+
+! Colors (PaperColor)
+URxvt.background:   #eeeeee
+URxvt.foreground:   #4d4d4c
+! Black
+URxvt.color0:       #ededed
+URxvt.color8:       #969694
+! Red
+URxvt.color1:       #d7005f
+URxvt.color9:       #d7005f
+! Green
+URxvt.color2:       #718c00
+URxvt.color10:      #718c00
+! Yellow
+URxvt.color3:       #d75f00
+URxvt.color11:      #d75f00
+! Blue
+URxvt.color4:       #4271ae
+URxvt.color12:      #4271ae
+! Magenta
+URxvt.color5:       #8959a8
+URxvt.color13:      #8959a8
+! Cyan
+URxvt.color6:       #3e999f
+URxvt.color14:      #3e999f
+! White
+URxvt.color7:       #4d4d4c
+URxvt.color15:      #f5f5f5
