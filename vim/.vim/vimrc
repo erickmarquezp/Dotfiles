@@ -1,0 +1,10 @@
+set nocompatible
+
+" Load pathogen from non-default directory
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
+source ~/.vim/config/general.vim    " General settings
+source ~/.vim/config/autocmd.vim    " Autocommands
+source ~/.vim/config/mapping.vim    " Custom mappings
+source ~/.vim/config/plugin.vim     " Plugin-specific settings
